@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4E61C0</color>
+    <color name="colorPrimaryDark">#4E61C0</color>
+    <color name="colorAccent">#4E61C0</color>
+
+    <color name="colorPlaceHolderImage">#EDF4F6</color>
+    <color name="colorPlaceHolderImageDark">#D5DBDD</color>
+
+    <color name="colorGreen">#3EBD17</color>
+    <color name="colorRed">#FF1931</color>
+    <color name="orange">#FF5722</color>
+    <color name="colorSubBtnGradStart">#FFFFFF</color>
+    <color name="colorSubBtnGradEnd">#FFFFFF</color>
+    <color name="liteGreen">#A5AF69</color>
+
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorPrimaryText">#414141</color>
+    <color name="colorSecondaryText">#848484</color>
+    <color name="colorDisabledText">#B7B7B7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="black">#000000</color>
+    <color name="colorGrey">#C5C5C5</color>
+    <color name="litetextGrey">#CACACA</color>
+    <color name="colorBlackTransparent">#CC000000</color>
+
+    <color name="rippelColor">@color/colorAccent</color>
+
+    <color name="colorDivider">#B5B5B5</color>
+    <color name="colorGrayBg">#F4F6F7</color>
+
+    <color name="colorRecylerViewDivider">#EBEBEB</color>
+
+    <color name="colorInputEditTextHint">#7E7E7E</color>
+    <color name="colorInputEditTextValue">@color/colorPrimaryText</color>
+    <color name="colorInputEditTextStroke">@color/colorInputEditTextHint</color>
+
+    <color name="sky_blue">#00aecc</color>
+
+    <color name="colorFacebookButton">#4267B2</color>
+    <color name="colorGoogleButton">#DD4B39</color>
+    <color name="colorRadioButtonNormal">#F7F7F7</color>
+    <color name="colorRadioButtonChecked">#26FF0966</color>
+    <color name="colorSearchViewBg">#08000000</color>
+    <color name="colorChatBarBg">#EDF4F6</color>
+    <color name="colorChatMsgsTime">#7C7C7C</color>
+    <color name="colorRecMsgBubbleStroke">#6FFF0C68</color>
+    <color name="colorCheckBoxNormal">#C5C5C5</color>
+    <color name="colorSettingsHeaderBg">#6FFF0C68</color>
+    <color name="colorProfileLocation">#8CFFFFFF</color>
+    <color name="colorAddPhotoBg">#F7F7F7</color>
+    <color name="colorAddPhotoPlaceholder">#FFD5E0</color>
+    <color name="colorMemoriesText">#BDBDBD</color>
+    <color name="colorRadioButtonFilterChecked">#40FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundtheme">#FAFAFA</color>
+    <color name="backgrey">#F6F6F6</color>
+
+    <color name="appBag">#F4F4F6</color>
+</resources>
