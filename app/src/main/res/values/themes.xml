@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GroceryBuddy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorBlack</item>
+        <!-- Status bar color. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    //todo: for Font style
+
+    <style name="StyleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="StyleRegular" parent="StyleText">
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+    </style>
+
+    <style name="StyleSemiBold" parent="StyleText">
+        <item name="android:fontFamily">@font/font_poppins_semibold</item>
+    </style>
+
+    <style name="StyleBold" parent="StyleText">
+        <item name="android:fontFamily">@font/font_poppins_bold</item>
+    </style>
+
+    <style name="StyleMedium" parent="StyleText">
+        <item name="android:fontFamily">@font/font_poppins_medium</item>
+    </style>
+
+    <style name="StyleHeavy" parent="StyleText">
+        <item name="android:fontFamily">@font/font_aileron_heavy</item>
+    </style>
+
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="popupMenuStyle">@style/StylePopupMenu</item>
+        <item name="android:colorBackground">@color/colorPrimaryText</item>
+        <!-- <item name="otpViewStyle">@style/OtpWidget.OtpView</item>-->
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+
+    <!-- Popup Menu Style -->
+    <style name="StylePopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownVerticalOffset">-8dp</item>
+        <item name="android:dropDownHorizontalOffset">-8dp</item>
+    </style>
+
+    <!-- Bottom Nav Menu Style -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="itemTextColor">@color/colorPrimary</item>
+        <item name="itemIconTint">@color/colorPrimary</item>
+    </style>
+
+
+
+</resources>
